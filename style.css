@@ -1,0 +1,195 @@
+body {
+    background-color: #374151;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.child {
+    display: flex;
+    gap: 5px;
+
+}
+
+.child1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.down {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+
+}
+
+button {
+    color: white;
+    background-color: #4B5563;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    color: white;
+    font-family: initial;
+}
+
+input {
+    border: 1px solid white;
+    padding: 10px 10px;
+    color: green;
+    border-radius: 10px;
+    background-color: #1F293799;
+}
+
+.wwi {
+    font-style: italic;
+    
+}
+.w{
+    font-style: italic;
+}
+.sect1{
+   
+}
+
+.comp {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.pp {
+    color: #FFFFFF99;
+  font-style: oblique;
+ 
+}
+.p1{
+    color: #FFFFFF99;
+  font-style: oblique;
+  
+}
+
+.girl{
+    width: 50px;
+    
+}
+.girl1{
+    width: 50px;
+    border-radius: 30px;
+}
+.girl2{
+    width: 30px;
+    border-radius: 10px;
+}
+.com1 {
+    margin: 10px;
+}
+.text{
+    margin: 10px;
+}
+
+.yakm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.glavn {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    gap: 10px;
+}
+
+.fon {
+    width: 100%;
+    height: auto;
+}
+
+.ava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.oxirongiw{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+   margin-top: 20px;
+}
+.tamom{
+    margin: 50px;
+    padding-left: 550px;
+}
+@media(max-width:700px){
+    .child1{
+        display: none;
+    }
+    .child2{
+        display: none;
+    }
+    .yakm{
+        display: flex;
+        flex-direction: column;
+        padding-left: 200px;
+    }
+    button{
+        margin-left: 200px;
+    }
+    .sect1{
+        margin-left: 200px;
+    }
+    .oxirongiw{
+        margin-left: 100px;
+    }
+
+    .glavn{
+        width: 150px;
+    }
+.tamom{
+ margin-left: -540px;
+ display: flex;
+}
+.pr{
+font-size: 10px;
+margin: 5px;
+}
+.pr1{
+    font-size: 13px;
+     color: #FFFFFF99;
+}
+.wwi{
+    font-size: 13px;
+    margin: 5px;
+}
+}
